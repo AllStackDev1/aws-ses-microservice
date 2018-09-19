@@ -1,0 +1,21 @@
+{
+  "name": "aws-ses-microservice",
+  "version": "1.0.0",
+  "description": "An microservice for sending emails to client directly from database via aws ses sdk using node/express js",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "author": "Chinedu Ekeke Okpala",
+  "license": "ISC",
+  "dependencies": {
+    "aws-sdk": "^2.315.0",
+    "cryptr": "^4.0.0",
+    "dotenv": "^6.0.0",
+    "express": "^4.16.3",
+    "http-errors": "^1.7.1",
+    "mongoose": "^5.2.15",
+    "nodemon": "^1.18.4",
+    "validator": "^10.7.1"
+  }
+}
