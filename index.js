@@ -1,7 +1,7 @@
 const createError = require('http-errors');
 const express = require('express');
 
-const port = process.env.PORT || 3210;
+const port = process.env.PORT || 3000;
 
 const Mailer = require('./Mailer/routes');
 const app = express();
